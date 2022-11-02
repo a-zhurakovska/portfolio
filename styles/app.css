@@ -37,3 +37,140 @@ h2 {
 .occupation {
   margin-left: 70px;
 }
+
+h3 {
+  font-weight: 600;
+}
+
+.aboutMe,
+.skills {
+  padding: 100px;
+}
+
+.projects h4 {
+  font-weight: 400;
+}
+
+.projects a {
+  text-decoration: none;
+  color: #111111;
+  font-weight: 600;
+}
+
+.cetfificate a {
+  text-decoration: none;
+  color: #111111;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.cetfificate {
+  transition: 0.6s ease-in-out;
+}
+
+.cetfificate:hover {
+  background-color: #171616;
+  color: #fffefec2;
+  transform: scale(1.1);
+}
+
+.cetfificate:hover a {
+  color: #dddddd;
+  padding: 2px 5px;
+  border: 1px solid #dddddd;
+}
+
+.form-box {
+  box-shadow: 11px 11px 13px 5px #000000;
+  box-shadow: -3px -1px 11px #000000;
+  padding: 30px;
+  margin: 30px;
+}
+
+.form-box h3 {
+  color: var(--heading-text-color);
+}
+
+.email-box,
+.name-box,
+.message-box {
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.email-box input,
+.name-box input,
+.message-box textarea {
+  width: 100%;
+  padding: auto;
+  color: var(--heading-text-color);
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  outline: none;
+}
+
+.email-box label,
+.name-box label {
+  width: 100%;
+  position: absolute;
+  top: -10px;
+  left: 0;
+  padding: auto;
+  background: transparent;
+  pointer-events: none;
+}
+
+.message-box label {
+  position: absolute;
+  left: 0;
+}
+
+.name-box input:focus + .name-label,
+.message-box textarea:focus + .message-label,
+.email-box input:focus + .email-label {
+  font-size: 12px;
+  top: -20px;
+  left: 0px;
+}
+
+.name-box input:valid + .name-label,
+.message-box textarea:valid + .message-label,
+.email-box input:valid + .email-label {
+  font-size: 12px;
+  top: -20px;
+}
+
+.contact-btn {
+  padding: 10px 40px;
+  box-shadow: 11px 11px 13px 5px #000000;
+}
+
+.contact-btn:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.contact {
+  background: var(--background-gradient);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#contact,
+.address,
+.email {
+  color: var(--heading-text-color);
+}
+
+.address,
+.email {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+#address,
+#email {
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: 100;
+}
