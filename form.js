@@ -30,3 +30,15 @@ function showUserInfo(data) {
       console.log(json);
     });
 }
+
+var nav = document.querySelector("nav");
+
+window.addEventListener("scroll", changeNavBg);
+
+function changeNavBg() {
+  if (window.pageYOffset > 340) {
+    nav.classList.add("forNav");
+  } else {
+    nav.classList.remove("forNav");
+  }
+}

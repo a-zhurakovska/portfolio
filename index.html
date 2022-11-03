@@ -14,6 +14,12 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://kit.fontawesome.com/d9bc670560.js"
       crossorigin="anonymous"
@@ -30,7 +36,60 @@
     <title>Zhurakovska's portfolio</title>
   </head>
   <body>
-    <div class="homepage">
+    <div class="navigation">
+      <nav class="navbar navbar-expand-md fixed-top navbar-dark">
+        <div class="container-fluid justify-content-end">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav text-center">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/index.html"
+                  title="Homepage"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="/#about" title="About me">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="/#skills" title="Skills">Skills</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="/#projects" title="Projects"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="/#certificates" title="Certificates"
+                  >Certificates</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="/#contact" title="Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="homepage" id="homepage">
       <h2 class="who">I AM</h2>
       <h1>ANASTASIIA ZHURAKOVSKA</h1>
       <h2 class="occupation">
@@ -40,7 +99,7 @@
       </h2>
     </div>
 
-    <div class="about">
+    <div class="about" id="about">
       <div class="row">
         <div class="col-md-6 aboutMe d-flex flex-column align-self-md-center">
           <h3 class="mb-5">About me</h3>
@@ -61,7 +120,7 @@
           />
         </div>
 
-        <div class="skills">
+        <div class="skills" id="skills">
           <h3>Skills</h3>
           <div class="row text-sm-center text-start p-md-2">
             <div class="col-md-3">HTML/CSS</div>
@@ -79,7 +138,7 @@
       </div>
     </div>
 
-    <div class="projects">
+    <div class="projects" id="projects">
       <h3 class="text-center p-5">PROJECTS</h3>
 
       <div class="row m-5">
@@ -129,7 +188,7 @@
       </div>
     </div>
 
-    <div class="certificates">
+    <div class="certificates" id="certificates">
       <h3 class="text-center p-5 mt-3">CERTIFICATES</h3>
       <div class="row m-4 text-center p-2">
         <div class="col-6 cetfificate col-sm-3">
@@ -183,7 +242,7 @@
       </div>
     </div>
 
-    <div class="contact row flex-column-reverse flex-lg-row">
+    <div class="contact row flex-column-reverse flex-lg-row" id="contact">
       <div class="col-12 col-lg-1 d-flex align-self-center">
         <div class="col row-md text-center m-5">
           <a
