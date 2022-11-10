@@ -180,3 +180,10 @@ h3 {
   font-size: 14px;
   font-weight: 100;
 }
+
+@media (max-width: 800px) {
+  body {
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+}
