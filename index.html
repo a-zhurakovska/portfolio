@@ -35,313 +35,302 @@
     <title>Zhurakovska's portfolio</title>
   </head>
   <body>
-    <div class="container-fluid p-0">
-        <div class="navigation">
-          <nav class="navbar navbar-expand-md fixed-top navbar-dark">
-            <div class="container-fluid justify-content-end">
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div
-                class="collapse navbar-collapse justify-content-center"
-                id="navbarNav"
-              >
-                <ul class="navbar-nav text-center">
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link active"
-                      aria-current="page"
-                      href="/index.html"
-                      title="Homepage"
-                      >Home</a
-                    >
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link" href="/#about" title="About me"
-                      >About</a
-                    >
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link" href="/#skills" title="Skills"
-                      >Skills</a
-                    >
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link" href="/#projects" title="Projects"
-                      >Projects</a
-                    >
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link"
-                      href="/#certificates"
-                      title="Certificates"
-                      >Certificates</a
-                    >
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link" href="/#contact" title="Contact"
-                      >Contact</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+    <div class="navigation">
+      <nav class="navbar navbar-expand-md fixed-top navbar-dark">
+        <div class="container-fluid justify-content-end">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav text-center">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/index.html"
+                  title="Homepage"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="/#about" title="About me">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="/#skills" title="Skills">Skills</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="/#projects" title="Projects"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="/#certificates" title="Certificates"
+                  >Certificates</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="/#contact" title="Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      <div class="homepage" id="homepage">
-        <h2 class="who">I AM</h2>
-        <h1>ANASTASIIA ZHURAKOVSKA</h1>
-        <h2 class="occupation">
-          A FRONT-END
-          <br />
-          DEVELOPER
-        </h2>
+      </nav>
+    </div>
+
+    <div class="homepage" id="homepage">
+      <h2 class="who">I AM</h2>
+      <h1>ANASTASIIA ZHURAKOVSKA</h1>
+      <h2 class="occupation">
+        A FRONT-END
+        <br />
+        DEVELOPER
+      </h2>
+    </div>
+
+    <div class="about" id="about">
+      <div class="row">
+        <div class="col-md-6 aboutMe d-flex flex-column align-self-md-center">
+          <h3 class="mb-5">About me</h3>
+          <p>
+            Hello, everybody! I am Anastasiia. I'm from Ukraine. Due to the
+            Russian invasion of my country, I had to leave my home. Therefore, I
+            have been living in Scotland for about four months. Here I started
+            looking for something new and interesting for myself. I came across
+            SheCodes courses, which started my way into programming. Motivated,
+            I improve myself every day and acquire new knowledge.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img
+            src="src/images/developer.jpg"
+            alt="Developer"
+            class="img-fluid"
+          />
+        </div>
+
+        <div class="skills" id="skills">
+          <h3>Skills</h3>
+          <div class="row text-sm-center text-start p-md-2">
+            <div class="col-md-3">HTML/CSS</div>
+            <div class="col-md-3">Bootstrap</div>
+            <div class="col-md-3">JavaScript</div>
+            <div class="col-md-3">APIs</div>
+          </div>
+          <div class="row text-sm-center text-start">
+            <div class="col-md-3">Responsive Design</div>
+            <div class="col-md-3">Hosting</div>
+            <div class="col-md-3">SEO</div>
+            <div class="col-md-3">Version Control/Git</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects" id="projects">
+      <h3 class="text-center p-5">PROJECTS</h3>
+
+      <div class="row m-5">
+        <div class="col-12 col-xl-6 d-flex flex-column align-self-md-center">
+          <h4 class="card-title mb-3">My first project</h4>
+          <p class="card-text">
+            This is a really simple project. However, this is how it all
+            started. I used HTML, CSS, JavaScript, VS Code. The idea of this
+            site is to show and describe the importance of art.
+          </p>
+          <a
+            href="https://first-site-zhurakovska.netlify.app/"
+            target="_blank"
+            title="Click to see a site"
+            >Go to the site</a
+          >
+        </div>
+        <div class="d-none d-xl-block col-md-6">
+          <img
+            src="src/images/art-project.JPG"
+            alt="Art project"
+            class="img-fluid"
+          />
+        </div>
       </div>
 
-      <div class="about" id="about">
+      <div class="row m-5">
+        <div class="d-none d-xl-block col-md-6">
+          <img
+            src="src/images/weather.jpg"
+            alt="Weather project"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-12 col-xl-6 d-flex flex-column align-self-md-center">
+          <h4 class="card-title mb-3">Weather site</h4>
+          <p class="card-text">
+            This is a really interesting project for me, because I learn how to
+            integrate a live API. I went through advanced front-end technologies
+            such as HTML, CSS, and Bootstrap. I also found out how to use Git
+            and GitHub to manage my code.
+          </p>
+          <a
+            href="https://project-by-zhurakovska.netlify.app"
+            target="_blank"
+            title="Click to see a site"
+            >Go to the site</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="certificates" id="certificates">
+      <h3 class="text-center p-5 mt-3">CERTIFICATES</h3>
+      <div class="row m-4 text-center p-2">
+        <div class="col-6 cetfificate col-sm-3">
+          <h4 class="mt-4">SheCodes<br />Basics</h4>
+          <div class="mb-4">
+            <a
+              href="https://www.shecodes.io/certificates/9517503e80a517a0ae86d3269a66da05"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="To see a certificate"
+              >MORE</a
+            >
+          </div>
+        </div>
+        <div class="col-6 cetfificate col-sm-3">
+          <h4 class="mt-4">Sololearn<br />HTML</h4>
+          <div class="mb-4">
+            <a
+              href="https://www.sololearn.com/certificates/CT-9WXHKS8P"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="To see a certificate"
+              >MORE</a
+            >
+          </div>
+        </div>
+        <div class="col-6 cetfificate col-sm-3">
+          <h4 class="mt-4">SheCodes<br />Plus</h4>
+          <div class="mb-4">
+            <a
+              href="https://www.shecodes.io/certificates/8b6284ec2c4b588233ccb7353b799bae"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="To see a certificate"
+              >MORE</a
+            >
+          </div>
+        </div>
+        <div class="col-6 cetfificate col-sm-3">
+          <h4 class="mt-4">Sololearn<br />CSS</h4>
+          <div class="mb-4">
+            <a
+              href="https://www.sololearn.com/certificates/CT-DAL8WSLB"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="To see a certificate"
+              >MORE</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact row flex-column-reverse flex-lg-row" id="contact">
+      <div class="col-12 col-lg-1 d-flex align-self-center">
+        <div class="col row-md text-center m-5">
+          <a
+            href="https://www.linkedin.com/feed/"
+            target="_blank"
+            title="Zhurakovska's LinkedIn"
+            ><i class="fa-brands fa-linkedin-in m-3"></i
+          ></a>
+          <a
+            href="https://github.com/a-zhurakovska"
+            target="_blank"
+            title="Zhurakovska's GitHub"
+            ><i class="fa-brands fa-github m-3"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/_zhurakovska/?igshid=YmMyMTA2M2Y%3D"
+            title="Zhurakovska's Instagram"
+            target="_blank"
+            ><i class="fa-brands fa-instagram m-3"></i
+          ></a>
+          <a
+            href="https://www.pinterest.com/a_zhurakovskaya/"
+            target="_blank"
+            title="Zhurakovska's Pinterest"
+            ><i class="fa-brands fa-pinterest-p m-3"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-5 align-self-center text-center mt-5">
         <div class="row">
-          <div class="col-md-6 aboutMe d-flex flex-column align-self-md-center">
-            <h3 class="mb-5">About me</h3>
-            <p>
-              Hello, everybody! I am Anastasiia. I'm from Ukraine. Due to the
-              Russian invasion of my country, I had to leave my home. Therefore,
-              I have been living in Scotland for about four months. Here I
-              started looking for something new and interesting for myself. I
-              came across SheCodes courses, which started my way into
-              programming. Motivated, I improve myself every day and acquire new
-              knowledge.
-            </p>
-          </div>
-          <div class="col-md-6">
-            <img
-              src="src/images/developer.jpg"
-              alt="Developer"
-              class="img-fluid"
-            />
+          <div class="mb-5">
+            <h3 id="contact">CONTACT</h3>
           </div>
 
-          <div class="skills" id="skills">
-            <h3>Skills</h3>
-            <div class="row text-sm-center text-start p-md-2">
-              <div class="col-md-3">HTML/CSS</div>
-              <div class="col-md-3">Bootstrap</div>
-              <div class="col-md-3">JavaScript</div>
-              <div class="col-md-3">APIs</div>
-            </div>
-            <div class="row text-sm-center text-start">
-              <div class="col-md-3">Responsive Design</div>
-              <div class="col-md-3">Hosting</div>
-              <div class="col-md-3">SEO</div>
-              <div class="col-md-3">Version Control/Git</div>
-            </div>
+          <div class="mt-1 mb-5">
+            <h4 class="address">Address</h4>
+            <h4 id="address">Glasgow, Scotland</h4>
+          </div>
+
+          <div>
+            <h4 class="email">Email</h4>
+            <h4 id="email">anastasiya.zhurakovskaya@gmail.com</h4>
           </div>
         </div>
       </div>
 
-      <div class="projects" id="projects">
-        <h3 class="text-center p-5">PROJECTS</h3>
-
-        <div class="row m-5">
-          <div class="col-12 col-xl-6 d-flex flex-column align-self-md-center">
-            <h4 class="card-title mb-3">My first project</h4>
-            <p class="card-text">
-              This is a really simple project. However, this is how it all
-              started. I used HTML, CSS, JavaScript, VS Code. The idea of this
-              site is to show and describe the importance of art.
-            </p>
-            <a
-              href="https://first-site-zhurakovska.netlify.app/"
-              target="_blank"
-              title="Click to see a site"
-              >Go to the site</a
-            >
-          </div>
-          <div class="d-none d-xl-block col-md-6">
-            <img
-              src="src/images/art-project.JPG"
-              alt="Art project"
-              class="img-fluid"
-            />
-          </div>
-        </div>
-
-        <div class="row m-5">
-          <div class="d-none d-xl-block col-md-6">
-            <img
-              src="src/images/weather.jpg"
-              alt="Weather project"
-              class="img-fluid"
-            />
-          </div>
-          <div class="col-12 col-xl-6 d-flex flex-column align-self-md-center">
-            <h4 class="card-title mb-3">Weather site</h4>
-            <p class="card-text">
-              This is a really interesting project for me, because I learn how
-              to integrate a live API. I went through advanced front-end
-              technologies such as HTML, CSS, and Bootstrap. I also found out
-              how to use Git and GitHub to manage my code.
-            </p>
-            <a
-              href="https://project-by-zhurakovska.netlify.app"
-              target="_blank"
-              title="Click to see a site"
-              >Go to the site</a
-            >
-          </div>
-        </div>
-      </div>
-
-      <div class="certificates" id="certificates">
-        <h3 class="text-center p-5 mt-3">CERTIFICATES</h3>
-        <div class="row m-4 text-center p-2">
-          <div class="col-6 cetfificate col-sm-3">
-            <h4 class="mt-4">SheCodes<br />Basics</h4>
-            <div class="mb-4">
-              <a
-                href="https://www.shecodes.io/certificates/9517503e80a517a0ae86d3269a66da05"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="To see a certificate"
-                >MORE</a
-              >
-            </div>
-          </div>
-          <div class="col-6 cetfificate col-sm-3">
-            <h4 class="mt-4">Sololearn<br />HTML</h4>
-            <div class="mb-4">
-              <a
-                href="https://www.sololearn.com/certificates/CT-9WXHKS8P"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="To see a certificate"
-                >MORE</a
-              >
-            </div>
-          </div>
-          <div class="col-6 cetfificate col-sm-3">
-            <h4 class="mt-4">SheCodes<br />Plus</h4>
-            <div class="mb-4">
-              <a
-                href="https://www.shecodes.io/certificates/8b6284ec2c4b588233ccb7353b799bae"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="To see a certificate"
-                >MORE</a
-              >
-            </div>
-          </div>
-          <div class="col-6 cetfificate col-sm-3">
-            <h4 class="mt-4">Sololearn<br />CSS</h4>
-            <div class="mb-4">
-              <a
-                href="https://www.sololearn.com/certificates/CT-DAL8WSLB"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="To see a certificate"
-                >MORE</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="contact row flex-column-reverse flex-lg-row" id="contact">
-        <div class="col-12 col-lg-1 d-flex align-self-center">
-          <div class="col row-md text-center m-5">
-            <a
-              href="https://www.linkedin.com/feed/"
-              target="_blank"
-              title="Zhurakovska's LinkedIn"
-              ><i class="fa-brands fa-linkedin-in m-3"></i
-            ></a>
-            <a
-              href="https://github.com/a-zhurakovska"
-              target="_blank"
-              title="Zhurakovska's GitHub"
-              ><i class="fa-brands fa-github m-3"></i
-            ></a>
-            <a
-              href="https://www.instagram.com/_zhurakovska/?igshid=YmMyMTA2M2Y%3D"
-              title="Zhurakovska's Instagram"
-              target="_blank"
-              ><i class="fa-brands fa-instagram m-3"></i
-            ></a>
-            <a
-              href="https://www.pinterest.com/a_zhurakovskaya/"
-              target="_blank"
-              title="Zhurakovska's Pinterest"
-              ><i class="fa-brands fa-pinterest-p m-3"></i
-            ></a>
-          </div>
-        </div>
-
-        <div class="col-12 col-lg-5 align-self-center text-center mt-5">
-          <div class="row">
-            <div class="mb-5">
-              <h3 id="contact">CONTACT</h3>
+      <div class="col-12 col-lg-6">
+        <div class="form-box m">
+          <form id="myForm">
+            <h3 class="text-center m-5">I AM AVAILABLE FOR HIRING!</h3>
+            <div class="name-box">
+              <input type="text" id="name" autocomplete="off" required />
+              <label class="name-label" for="name">Your name</label>
             </div>
 
-            <div class="mt-1 mb-5">
-              <h4 class="address">Address</h4>
-              <h4 id="address">Glasgow, Scotland</h4>
+            <div class="email-box">
+              <input
+                type="email"
+                class="form-control"
+                id="inputEmail"
+                autocomplete="off"
+                required
+              />
+              <label class="email-label" for="email">Your email</label>
             </div>
 
-            <div>
-              <h4 class="email">Email</h4>
-              <h4 id="email">anastasiya.zhurakovskaya@gmail.com</h4>
+            <div class="message-box mt-5 mb-5">
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="5"
+                required
+              ></textarea>
+              <label class="message-label" for="message">Message</label>
             </div>
-          </div>
-        </div>
 
-        <div class="col-12 col-lg-6">
-          <div class="form-box m">
-            <form id="myForm">
-              <h3 class="text-center m-5">I AM AVAILABLE FOR HIRING!</h3>
-              <div class="name-box">
-                <input type="text" id="name" autocomplete="off" required />
-                <label class="name-label" for="name">Your name</label>
-              </div>
-
-              <div class="email-box">
-                <input
-                  type="email"
-                  class="form-control"
-                  id="inputEmail"
-                  autocomplete="off"
-                  required
-                />
-                <label class="email-label" for="email">Your email</label>
-              </div>
-
-              <div class="message-box mt-5 mb-5">
-                <textarea
-                  name="message"
-                  id="message"
-                  cols="30"
-                  rows="5"
-                  required
-                ></textarea>
-                <label class="message-label" for="message">Message</label>
-              </div>
-
-              <div class="text-center">
-                <input
-                  type="submit"
-                  class="btn text-white rounded-0 contact-btn"
-                  value="Send message"
-                />
-              </div>
-            </form>
-          </div>
+            <div class="text-center">
+              <input
+                type="submit"
+                class="btn text-white rounded-0 contact-btn"
+                value="Send message"
+              />
+            </div>
+          </form>
         </div>
       </div>
     </div>
