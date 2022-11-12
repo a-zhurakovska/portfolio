@@ -183,7 +183,6 @@ h3 {
 
 @media (max-width: 800px) {
   body {
-    overflow: scroll;
     overflow-x: hidden;
   }
 }
